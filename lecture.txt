@@ -1,0 +1,7 @@
+make as many private things as possible, leaving few open interface methods.
+attr_reader, attr_accessor, attr_writer - methods
+attr_reader :store  - reads @store attribute
+if we use attr_reader :store, we can use "store" as the attribute; not "@store"
+new classes are instances of Object class, so we can have an attribute that,
+  for instance, increments each time you make a new instance - counter.
+-----
